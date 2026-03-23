@@ -222,17 +222,14 @@ function Hero({ onShopNow }) {
             </div>
           </Section>
           
-          <div className="order-1 lg:order-2 relative group">
-            <div className="relative z-10 animate-float">
-              <div className="overflow-hidden rounded-[2.5rem] shadow-2xl relative">
-                <img 
-                  src="/images/main image.png" 
-                  alt="Ceylon Cinnamon Heritage" 
-                  className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-1000"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60"></div>
-              </div>
-              <div className="absolute -bottom-8 -left-8 bg-white p-8 shadow-2xl rounded-3xl animate-fade-in-up border border-stone-50">
+          <div className="order-1 lg:order-2 relative group flex justify-center items-center">
+            <div className="relative z-10 animate-float drop-shadow-2xl">
+              <img 
+                src="/images/Ceylon Cinnamon Sticks.png" 
+                alt="Premium Ceylon Cinnamon" 
+                className="w-full max-h-[500px] object-contain hover:scale-110 transition-transform duration-1000"
+              />
+              <div className="absolute -bottom-8 -left-8 bg-white/90 backdrop-blur-md p-8 shadow-2xl rounded-3xl animate-fade-in-up border border-stone-50">
                 <div className="flex items-center gap-4">
                   <div className="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center">
                     <Leaf className="w-7 h-7 text-emerald-800" />
