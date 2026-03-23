@@ -83,7 +83,7 @@ function CartDrawer({ isOpen, onClose, items, onUpdateQuantity, onRemove }) {
             ) : (
               items.map((item) => (
                 <div key={item.id} className="flex gap-4 animate-fade-in-up">
-                  <div className="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 border border-stone-100">
+                  <div className="w-24 h-24 rounded-2xl overflow-hidden flex-shrink-0 border border-stone-100">
                     <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
                   </div>
                   <div className="flex-1 flex flex-col justify-between">
@@ -92,7 +92,7 @@ function CartDrawer({ isOpen, onClose, items, onUpdateQuantity, onRemove }) {
                       <p className="text-stone-500 text-sm">${item.price}</p>
                     </div>
                     <div className="flex items-center justify-between mt-2">
-                      <div className="flex items-center border border-stone-200 rounded-lg overflow-hidden">
+                      <div className="flex items-center border border-stone-200 rounded-full overflow-hidden">
                         <button 
                           onClick={() => onUpdateQuantity(item.id, -1)}
                           className="p-1 hover:bg-stone-50 transition-colors"
@@ -127,7 +127,7 @@ function CartDrawer({ isOpen, onClose, items, onUpdateQuantity, onRemove }) {
                 <span>${total.toFixed(2)}</span>
               </div>
               <p className="text-stone-500 text-xs">Taxes and shipping calculated at checkout.</p>
-              <button className="w-full bg-emerald-800 text-white py-4 rounded-xl font-medium hover:bg-emerald-900 transition-all shadow-lg hover:shadow-emerald-900/20 active:scale-[0.98] flex items-center justify-center gap-2 group">
+              <button className="w-full bg-emerald-800 text-white py-4 rounded-full font-medium hover:bg-emerald-900 transition-all shadow-lg hover:shadow-emerald-900/20 active:scale-[0.98] flex items-center justify-center gap-2 group">
                 Proceed to Checkout
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
@@ -186,7 +186,7 @@ function Navbar({ cartCount, onOpenCart }) {
 
 function Hero({ onShopNow }) {
   return (
-    <section id="home" className="pt-40 pb-20 px-6 relative overflow-hidden bg-stone-50/50">
+    <section id="home" className="pt-40 pb-20 px-6 relative overflow-hidden bg-white">
       {/* Background elements */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-emerald-50/50 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2" />
       
@@ -211,7 +211,7 @@ function Hero({ onShopNow }) {
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <button 
                 onClick={onShopNow}
-                className="w-full sm:w-auto bg-emerald-800 text-white px-10 py-5 rounded-2xl font-semibold 
+                className="w-full sm:w-auto bg-emerald-800 text-white px-10 py-5 rounded-full font-semibold 
                 tracking-wide hover:bg-emerald-900 transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-emerald-900/10"
               >
                 Explore Collection
@@ -225,13 +225,13 @@ function Hero({ onShopNow }) {
           <div className="order-1 lg:order-2 relative group flex justify-center items-center">
             <div className="relative z-10 animate-float drop-shadow-2xl">
               <img 
-                src="https://pngimg.com/uploads/cinnamon/cinnamon_PNG10185.png" 
+                src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=1200&q=90&auto=format&fit=crop" 
                 alt="Premium Ceylon Cinnamon Heritage" 
-                className="w-full max-h-[500px] object-contain hover:scale-110 transition-transform duration-1000 drop-shadow-2xl"
+                className="w-full max-h-[500px] object-contain hover:scale-110 transition-transform duration-1000 mix-blend-multiply"
               />
               <div className="absolute -bottom-8 -left-8 bg-white/90 backdrop-blur-md p-8 shadow-2xl rounded-3xl animate-fade-in-up border border-stone-50">
                 <div className="flex items-center gap-4">
-                  <div className="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center">
+                  <div className="w-14 h-14 bg-emerald-50 rounded-full flex items-center justify-center">
                     <Leaf className="w-7 h-7 text-emerald-800" />
                   </div>
                   <div>
@@ -306,7 +306,7 @@ function ProductCard({ product, onAddToCart }) {
           </div>
           <button 
             onClick={onAddToCart}
-            className="bg-stone-900 text-white p-4 rounded-2xl hover:bg-emerald-800 
+            className="bg-stone-900 text-white p-4 rounded-full hover:bg-emerald-800 
             transition-all duration-300 hover:scale-110 active:scale-90 group/btn"
           >
             <Plus className="w-6 h-6 group-hover/btn:rotate-90 transition-transform duration-300" />
@@ -437,7 +437,7 @@ function Benefits() {
                 { icon: Globe, title: 'Fair Trade', text: 'Empowering local Sri Lankan farmers' }
               ].map((item, index) => (
                 <div key={index} className="flex gap-5 items-start group">
-                  <div className="w-12 h-12 bg-stone-50 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-800 transition-all duration-300">
+                  <div className="w-12 h-12 bg-stone-50 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-800 transition-all duration-300">
                     <item.icon className="w-6 h-6 text-emerald-800 group-hover:text-white transition-colors" />
                   </div>
                   <div>
