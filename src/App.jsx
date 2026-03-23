@@ -260,11 +260,11 @@ function Hero({ onShopNow }) {
               { icon: Truck, label: 'Free Shipping', desc: 'Over $50' }
             ].map((badge, index) => (
               <div key={index} className="flex flex-col items-center text-center group">
-                <div className="w-12 h-12 bg-stone-50 rounded-full flex items-center justify-center mb-4 group-hover:bg-emerald-50 group-hover:scale-110 transition-all duration-300">
-                  <badge.icon className="w-6 h-6 text-emerald-800" />
+                <div className="w-14 h-14 bg-stone-50 rounded-full flex items-center justify-center mb-4 group-hover:bg-emerald-50 group-hover:scale-110 transition-all duration-300">
+                  <badge.icon className="w-7 h-7 text-emerald-800" />
                 </div>
-                <h3 className="text-stone-900 font-bold mb-1 text-sm tracking-tight">{badge.label}</h3>
-                <p className="text-stone-400 text-[10px] whitespace-nowrap uppercase tracking-widest">{badge.desc}</p>
+                <h3 className="text-stone-900 font-bold mb-1 text-base tracking-tight">{badge.label}</h3>
+                <p className="text-stone-400 text-xs whitespace-nowrap uppercase tracking-widest">{badge.desc}</p>
               </div>
             ))}
           </div>
