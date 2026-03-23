@@ -405,7 +405,7 @@ function Benefits() {
           <Section className="relative">
             <div className="absolute -top-10 -left-10 w-64 h-64 bg-emerald-50 rounded-full blur-3xl -z-10" />
             <img 
-              src="https://images.unsplash.com/photo-1599707367072-cd6cf2c57609?w=900&q=90&auto=format&fit=crop" 
+              src="/images/Cinnamon Plantation Sri Lanka.webp" 
               alt="Cinnamon Plantation Sri Lanka"
               className="rounded-[3rem] shadow-2xl w-full sticky top-0"
             />
