@@ -186,7 +186,7 @@ function Navbar({ cartCount, onOpenCart }) {
 
 function Hero({ onShopNow }) {
   return (
-    <section id="home" className="pt-28 pb-12 px-6 relative overflow-hidden bg-white">
+    <section id="home" className="pt-28 pb-16 px-6 relative overflow-hidden bg-white">
       {/* Background elements */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-emerald-50/50 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2" />
       
@@ -250,8 +250,8 @@ function Hero({ onShopNow }) {
           </div>
         </div>
         
-        {/* Trust Badges moved to Hero footer - Tightened for visibility */}
-        <div className="mt-16 pt-12 border-t border-stone-100/50">
+        {/* Trust Badges moved to Hero footer - Slightly more breathing room */}
+        <div className="mt-20 pt-12 border-t border-stone-100/50">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { icon: Leaf, label: '100% Organic', desc: 'Certified farming' },
