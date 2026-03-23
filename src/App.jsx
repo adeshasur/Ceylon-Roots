@@ -409,10 +409,10 @@ function Benefits() {
               alt="Cinnamon Plantation Sri Lanka"
               className="rounded-[3rem] shadow-2xl w-full sticky top-0"
             />
-            <div className="absolute -bottom-10 -right-10 bg-emerald-900 text-white p-10 rounded-3xl shadow-2xl max-w-sm hidden md:block">
-              <Award className="w-10 h-10 mb-6 text-emerald-400" />
-              <h3 className="text-2xl font-bold mb-2 tracking-tight">World Standard</h3>
-              <p className="text-emerald-100/80 leading-relaxed text-sm">Winner of the International Spice Quality Award 2025.</p>
+            <div className="absolute -bottom-6 -right-6 bg-emerald-900 text-white p-8 rounded-3xl shadow-2xl max-w-[300px] hidden md:block">
+              <Award className="w-8 h-8 mb-4 text-emerald-400" />
+              <h3 className="text-xl font-bold mb-2 tracking-tight">World Standard</h3>
+              <p className="text-emerald-100/80 leading-relaxed text-xs">Winner of the International Spice Quality Award 2025.</p>
             </div>
           </Section>
           
