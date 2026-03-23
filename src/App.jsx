@@ -226,8 +226,8 @@ function Hero({ onShopNow }) {
             <div className="relative z-10 animate-float">
               <div className="overflow-hidden rounded-[2.5rem] shadow-2xl relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1603048297172-c92544798d5a?w=1200&q=90&auto=format&fit=crop" 
-                  alt="Ceylon Cinnamon Sticks" 
+                  src="/images/main image.png" 
+                  alt="Ceylon Cinnamon Heritage" 
                   className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-1000"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60"></div>
