@@ -249,37 +249,31 @@ function Hero({ onShopNow }) {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-emerald-50/20 rounded-full blur-3xl -z-20" />
           </div>
         </div>
-      </div>
-    </section>
-  )
-}
-
-function TrustBadges() {
-  const badges = [
-    { icon: Leaf, label: '100% Organic', desc: 'Certified farming' },
-    { icon: ShieldCheck, label: 'Export Quality', desc: 'ISO Standards' },
-    { icon: Globe, label: 'Ethically Sourced', desc: 'Direct trade' },
-    { icon: Truck, label: 'Free Shipping', desc: 'Over $50' }
-  ]
-  
-  return (
-    <section className="bg-white py-16 px-6 overflow-hidden">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
-          {badges.map((badge, index) => (
-            <Section key={index} className="flex flex-col items-center text-center group">
-              <div className="w-16 h-16 bg-stone-50 rounded-full flex items-center justify-center mb-4 group-hover:bg-emerald-50 group-hover:scale-110 transition-all duration-300">
-                <badge.icon className="w-7 h-7 text-emerald-800" />
+        
+        {/* Trust Badges moved to Hero footer */}
+        <div className="mt-24 pt-16 border-t border-stone-100/50">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              { icon: Leaf, label: '100% Organic', desc: 'Certified farming' },
+              { icon: ShieldCheck, label: 'Export Quality', desc: 'ISO Standards' },
+              { icon: Globe, label: 'Ethically Sourced', desc: 'Direct trade' },
+              { icon: Truck, label: 'Free Shipping', desc: 'Over $50' }
+            ].map((badge, index) => (
+              <div key={index} className="flex flex-col items-center text-center group">
+                <div className="w-12 h-12 bg-stone-50 rounded-full flex items-center justify-center mb-4 group-hover:bg-emerald-50 group-hover:scale-110 transition-all duration-300">
+                  <badge.icon className="w-6 h-6 text-emerald-800" />
+                </div>
+                <h3 className="text-stone-900 font-bold mb-1 text-sm tracking-tight">{badge.label}</h3>
+                <p className="text-stone-400 text-[10px] whitespace-nowrap uppercase tracking-widest">{badge.desc}</p>
               </div>
-              <h3 className="text-stone-900 font-bold mb-1">{badge.label}</h3>
-              <p className="text-stone-500 text-sm whitespace-nowrap">{badge.desc}</p>
-            </Section>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
   )
 }
+
 
 function ProductCard({ product, onAddToCart }) {
   return (
@@ -664,7 +658,6 @@ export default function App() {
 
       <main>
         <Hero onShopNow={handleShopNow} />
-        <Section><TrustBadges /></Section>
         <Shop onAddToCart={handleAddToCart} />
         <Benefits />
         <Reviews />
