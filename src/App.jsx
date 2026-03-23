@@ -186,7 +186,7 @@ function Navbar({ cartCount, onOpenCart }) {
 
 function Hero({ onShopNow }) {
   return (
-    <section id="home" className="pt-40 pb-20 px-6 relative overflow-hidden bg-white">
+    <section id="home" className="pt-40 pb-20 px-6 relative overflow-hidden bg-stone-50/50">
       {/* Background elements */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-emerald-50/50 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2" />
       
@@ -225,9 +225,9 @@ function Hero({ onShopNow }) {
           <div className="order-1 lg:order-2 relative group flex justify-center items-center">
             <div className="relative z-10 animate-float drop-shadow-2xl">
               <img 
-                src="/images/main image.png" 
+                src="https://pngimg.com/uploads/cinnamon/cinnamon_PNG10185.png" 
                 alt="Premium Ceylon Cinnamon Heritage" 
-                className="w-full max-h-[500px] object-contain hover:scale-110 transition-transform duration-1000 mix-blend-multiply"
+                className="w-full max-h-[500px] object-contain hover:scale-110 transition-transform duration-1000 drop-shadow-2xl"
               />
               <div className="absolute -bottom-8 -left-8 bg-white/90 backdrop-blur-md p-8 shadow-2xl rounded-3xl animate-fade-in-up border border-stone-50">
                 <div className="flex items-center gap-4">
