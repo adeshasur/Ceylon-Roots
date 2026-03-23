@@ -186,7 +186,7 @@ function Navbar({ cartCount, onOpenCart }) {
 
 function Hero({ onShopNow }) {
   return (
-    <section id="home" className="pt-40 pb-20 px-6 relative overflow-hidden bg-white">
+    <section id="home" className="pt-28 pb-12 px-6 relative overflow-hidden bg-white">
       {/* Background elements */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-emerald-50/50 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2" />
       
@@ -228,7 +228,7 @@ function Hero({ onShopNow }) {
                 <img 
                   src="/images/main image.png" 
                   alt="Premium Ceylon Cinnamon Heritage" 
-                  className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-1000"
+                  className="w-full h-[420px] object-cover hover:scale-105 transition-transform duration-1000"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-60"></div>
               </div>
@@ -250,8 +250,8 @@ function Hero({ onShopNow }) {
           </div>
         </div>
         
-        {/* Trust Badges moved to Hero footer */}
-        <div className="mt-24 pt-16 border-t border-stone-100/50">
+        {/* Trust Badges moved to Hero footer - Tightened for visibility */}
+        <div className="mt-16 pt-12 border-t border-stone-100/50">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { icon: Leaf, label: '100% Organic', desc: 'Certified farming' },
