@@ -327,7 +327,7 @@ function Shop({ onAddToCart }) {
       name: "Ceylon Cinnamon Sticks",
       desc: "Premium grade A cinnamon sticks, hand-peeled and sun-dried for optimal aroma.",
       price: 18.99,
-      image: "https://images.unsplash.com/photo-1603048297172-c92544798d5a?w=700&q=85&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&q=80&auto=format&fit=crop",
       badge: "Best Seller"
     },
     {
@@ -335,7 +335,7 @@ function Shop({ onAddToCart }) {
       name: "Ceylon Cinnamon Powder",
       desc: "Finely ground pure cinnamon from the highest grade barks. Intense flavor.",
       price: 14.99,
-      image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=700&q=85&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1599307767316-776533bb941c?w=800&q=80&auto=format&fit=crop",
       badge: null
     },
     {
@@ -343,7 +343,7 @@ function Shop({ onAddToCart }) {
       name: "Cinnamon Gift Set",
       desc: "Sticks + Powder + Pure Cinnamon Leaf Oil. The perfect gift for gourmets.",
       price: 39.99,
-      image: "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?w=700&q=85&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?w=800&q=80&auto=format&fit=crop",
       badge: "Limited"
     },
     {
@@ -351,7 +351,7 @@ function Shop({ onAddToCart }) {
       name: "Cinnamon Infused Honey",
       desc: "Raw wildflower honey infused with organic Ceylon cinnamon sticks. 250g jar.",
       price: 24.99,
-      image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=700&q=85&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&q=80&auto=format&fit=crop",
       badge: "New"
     },
     {
@@ -359,7 +359,7 @@ function Shop({ onAddToCart }) {
       name: "Premium Cinnamon Tea",
       desc: "Ceylon Black Tea blended with hand-crushed cinnamon chips for a warm, spicy brew.",
       price: 12.99,
-      image: "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?w=700&q=85&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1594631252845-29fc4586d56c?w=800&q=80&auto=format&fit=crop",
       badge: "Trending"
     },
     {
@@ -367,7 +367,7 @@ function Shop({ onAddToCart }) {
       name: "Bark Essential Oil",
       desc: "100% Pure steam-distilled cinnamon bark essential oil. Extremely aromatic.",
       price: 45.00,
-      image: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=700&q=85&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1620625690558-f9baf0559632?w=800&q=80&auto=format&fit=crop",
       badge: "Pure"
     }
   ]
