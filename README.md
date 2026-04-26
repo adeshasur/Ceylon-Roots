@@ -1,8 +1,8 @@
 # Ceylon Roots - Premium Organic Ceylon Cinnamon
 
-Experience the world's finest Ceylon cinnamon, harvested from centuries-old spice gardens in Sri Lanka. This project is a premium e-commerce landing page designed to showcase and sell organic cinnamon products with a focus on purity, heritage, and quality.
+**Live Website:** [https://ceylon-roots.vercel.app/](https://ceylon-roots.vercel.app/)
 
-**Live Demo:** [ceylon-roots.vercel.app](https://ceylon-roots.vercel.app/)
+Experience the world's finest Ceylon cinnamon, harvested from centuries-old spice gardens in Sri Lanka. This project is a premium e-commerce landing page designed to showcase and sell organic cinnamon products with a focus on purity, heritage, and quality.
 
 ![Ceylon Roots Full Page Preview](fullpage.png)
 
