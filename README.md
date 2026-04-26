@@ -69,4 +69,4 @@ The build artifacts will be located in the `dist/` directory.
 
 ## License
 
-All rights reserved. © 2026 Ceylon Roots Overseas.
+All rights reserved. © 2026 Adheesha Sooriyaarachchi.

@@ -596,7 +596,7 @@ function Footer() {
         </div>
         
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-stone-900 gap-4 text-xs tracking-widest uppercase font-bold">
-          <p>© 2026 Ceylon Roots Overseas. ALL RIGHTS RESERVED.</p>
+          <p>© 2026 Adheesha Sooriyaarachchi. ALL RIGHTS RESERVED.</p>
           <div className="flex gap-8">
             <span className="hover:text-white cursor-pointer transition-colors">INSTAGRAM</span>
             <span className="hover:text-white cursor-pointer transition-colors">FACEBOOK</span>
